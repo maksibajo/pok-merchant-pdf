@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "./static/css/main.ddbb9cf4.chunk.css",
+    "main.js": "./static/js/main.d42561ca.chunk.js",
+    "main.js.map": "./static/js/main.d42561ca.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.ea6b22e0.js",
+    "runtime-main.js.map": "./static/js/runtime-main.ea6b22e0.js.map",
+    "static/js/2.a0968456.chunk.js": "./static/js/2.a0968456.chunk.js",
+    "static/js/2.a0968456.chunk.js.map": "./static/js/2.a0968456.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.861f805de4af31da2cb7423886f4b290.js": "./precache-manifest.861f805de4af31da2cb7423886f4b290.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/main.ddbb9cf4.chunk.css.map": "./static/css/main.ddbb9cf4.chunk.css.map",
+    "static/js/2.a0968456.chunk.js.LICENSE.txt": "./static/js/2.a0968456.chunk.js.LICENSE.txt",
+    "static/media/POK~ODaiIRFl.svg": "./static/media/POK~ODaiIRFl.8e33e812.svg",
+    "static/media/appleStore~kiIWxpEr.svg": "./static/media/appleStore~kiIWxpEr.0e390853.svg",
+    "static/media/googlePlay~CRBRzWtN.svg": "./static/media/googlePlay~CRBRzWtN.4c56f153.svg",
+    "static/media/header~chxtzlIq.svg": "./static/media/header~chxtzlIq.e3f5977f.svg",
+    "static/media/phone~xUdzTTki.svg": "./static/media/phone~xUdzTTki.5f459560.svg",
+    "static/media/scanAndPayText~xLhgnkiz.svg": "./static/media/scanAndPayText~xLhgnkiz.efda4244.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ea6b22e0.js",
+    "static/js/2.a0968456.chunk.js",
+    "static/css/main.ddbb9cf4.chunk.css",
+    "static/js/main.d42561ca.chunk.js"
+  ]
+}
