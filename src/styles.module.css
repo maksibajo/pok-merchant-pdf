@@ -9,8 +9,12 @@
 
 .header {
   display: flex;
-  margin: 1.25rem;
+  margin: 0.5rem;
   justify-content: center;
+}
+
+.headerHeight {
+  height: 2.3rem;
 }
 
 .textCenter {
@@ -38,9 +42,17 @@
   padding-top: 2.5rem;
 }
 
-.py5 {
-  padding-top: 1.25rem;
-  padding-bottom: 1.25rem;
+.phoneHeight {
+  height: 1.75rem;
+}
+
+.scanAndPayHeight {
+  height: 1.25rem;
+}
+
+.py05 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.6rem;
 }
 
 .merchantLogo {
@@ -48,14 +60,14 @@
   justify-content: center;
   align-items: center;
   display: flex;
-  height: 4.3rem;
+  height: 2.3rem;
   object-fit: contain;
   margin-left: auto;
   margin-right: auto;
 }
 
 .h5 {
-  height: 1.25rem !important;
+  height: 0.75rem !important;
 }
 
 .qrContainer {
@@ -75,9 +87,12 @@
 }
 
 .footerQrContainer {
-  padding: 0.125rem;
+  padding: 0;
   border-radius: 0.5rem;
   background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .footerContent {
@@ -88,17 +103,15 @@
 
 .footerText {
   font-weight: bolder;
-  padding: 0 0.5rem;
-  font-size: 0.875rem;
-  line-height: 1.25rem;
+  font-size: 0.575rem;
+  line-height: 1rem;
   font-family: "DejaVu Sans", "Arial", sans-serif;
 }
 
 .footerText {
   font-weight: bolder;
-  padding: 0 0.5rem;
-  font-size: 0.875rem;
-  line-height: 1.25rem;
+  font-size: 0.575rem;
+  line-height: 1rem;
   font-family: "DejaVu Sans", "Arial", sans-serif;
 }
 
@@ -108,27 +121,30 @@
   justify-content: space-between;
 }
 
-.footerDownloadContainer {
-  display: flex;
-  flex-direction: row;
-}
-
 .footerLink {
   color: #008ACD;
-  font-size: 0.875rem;
-  line-height: 1.25rem;
+  font-size: 0.575rem;
+  padding-top: 0.2rem;
+  line-height: 1rem;
   font-family: "DejaVu Sans", "Arial", sans-serif;
 }
 
+
+.footerDownloadContainer {
+  display: flex;
+  flex-direction: row;
+  padding-top: 0.2rem;
+}
+
 .appStore {
-  height: 1.5rem;
+  height: 1rem;
   margin-right: 0.375rem;
   display: flex;
   justify-content: center;
 }
 
 .playStore {
-  height: 1.5rem;
+  height: 1rem;
   display: flex;
   justify-content: center;
 }

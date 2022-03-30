@@ -15,19 +15,23 @@ const PdfTemplate = ({ url }) => {
         <div className={styles.header}>
           <div className={styles.textCenter}>
             <div className={styles.headerContainer}>
-              <img alt='logo' src={header} />
+              <img alt='logo' src={header} className={styles.headerHeight} />
             </div>
           </div>
         </div>
         <div className={styles.container}>
           <div className={styles.phoneLogoContainer}>
-            <img alt='scan-qr' src={phone} />
+            <img alt='scan-qr' src={phone} className={styles.phoneHeight} />
           </div>
-          <div className={styles.py5}>
-            <img alt='scan-and-pay' src={scanAndPayText} />
+          <div className={styles.py05}>
+            <img
+              alt='scan-and-pay'
+              src={scanAndPayText}
+              className={styles.scanAndPayHeight}
+            />
           </div>
           <div className={styles.qrContainer}>
-            <QRCode value={url} size={238.8} />
+            <QRCode value={url} size={151} />
             <img
               alt='merchant-logo'
               src={Logo}
@@ -36,7 +40,11 @@ const PdfTemplate = ({ url }) => {
           </div>
           <div className={styles.footer}>
             <div className={styles.footerQrContainer}>
-              <QRCode value='https://pokpay.io' size={80} />
+              <QRCode
+                value='https://pokpay.io'
+                size={50}
+                bgColor='transparent'
+              />
             </div>
             <div className={styles.footerContent}>
               <img alt='Logo' src={Logo} className={styles.h5} />
@@ -75,4 +83,4 @@ const PdfTemplate = ({ url }) => {
   )
 }
 
-export default PdfTemplate;
+export default PdfTemplate
