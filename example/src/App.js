@@ -5,7 +5,7 @@ import 'pok-merchant-pdf/dist/index.css'
 
 const App = () => {
   return <div>
-    <POKMerchantPdf url="199292" onSuccess={() => {
+    <POKMerchantPdf url="https://exaple.com" onSuccess={() => {
       console.log('Downloaded pdf')
     }}>
       <button>shkarkoje kte pdf te marrë</button>
