@@ -1,0 +1,160 @@
+/* add css module styles here (optional) */
+.root {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1.25rem;
+  background: linear-gradient(to bottom, #07074E, #008ACD)
+}
+
+.header {
+  display: flex;
+  margin: 1.25rem;
+  justify-content: center;
+}
+
+.textCenter {
+  text-align: center;
+}
+
+.headerContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2rem;
+  padding: 1rem;
+}
+
+.phoneLogoContainer {
+  display: flex;
+  justify-content: center;
+  padding-top: 2.5rem;
+}
+
+.py5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.merchantLogo {
+  margin-top: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 4.3rem;
+  object-fit: contain;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.h5 {
+  height: 1.25rem !important;
+}
+
+.qrContainer {
+  background: #EBEFF4;
+  padding: 0.75rem;
+  border-radius: 0.75rem;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  padding: 0.5rem;
+  background: #EBEFF4;
+  border-radius: 1rem;
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.footerQrContainer {
+  padding: 0.125rem;
+  border-radius: 0.5rem;
+  background: white;
+}
+
+.footerContent {
+  margin-left: 1rem;
+  padding-top: 0.5rem;
+  width: 100%;
+}
+
+.footerText {
+  font-weight: bolder;
+  padding: 0 0.5rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-family: "DejaVu Sans", "Arial", sans-serif;
+}
+
+.footerText {
+  font-weight: bolder;
+  padding: 0 0.5rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-family: "DejaVu Sans", "Arial", sans-serif;
+}
+
+.footerStoreContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footerDownloadContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.footerLink {
+  color: #008ACD;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-family: "DejaVu Sans", "Arial", sans-serif;
+}
+
+.appStore {
+  height: 1.5rem;
+  margin-right: 0.375rem;
+  display: flex;
+  justify-content: center;
+}
+
+.playStore {
+  height: 1.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+
+@font-face {
+  font-family: "DejaVu Sans";
+  src: url("https://kendo.cdn.telerik.com/2017.2.621/styles/fonts/DejaVu/DejaVuSans.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "DejaVu Sans";
+  font-weight: bold;
+  src: url("https://kendo.cdn.telerik.com/2017.2.621/styles/fonts/DejaVu/DejaVuSans-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "DejaVu Sans";
+  font-style: italic;
+  src: url("https://kendo.cdn.telerik.com/2017.2.621/styles/fonts/DejaVu/DejaVuSans-Oblique.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "DejaVu Sans";
+  font-weight: bold;
+  font-style: italic;
+  src: url("https://kendo.cdn.telerik.com/2017.2.621/styles/fonts/DejaVu/DejaVuSans-Oblique.ttf") format("truetype");
+}
+
