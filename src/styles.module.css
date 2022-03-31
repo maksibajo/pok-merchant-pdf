@@ -1,5 +1,5 @@
 /* add css module styles here (optional) */
-.root {
+.pokPdfRoot {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -7,26 +7,26 @@
   background: linear-gradient(to bottom, #07074E, #008ACD)
 }
 
-.header {
+.pokPdfHeader {
   display: flex;
   margin: 0.5rem;
   justify-content: center;
 }
 
-.headerHeight {
+.pokPdfHeaderHeight {
   height: 2.3rem;
 }
 
-.textCenter {
+.pokPdfTextCenter {
   text-align: center;
 }
 
-.headerContainer {
+.pokPdfHeaderContainer {
   display: flex;
   justify-content: center;
 }
 
-.container {
+.pokPdfContainer {
   background: white;
   display: flex;
   flex-direction: column;
@@ -36,26 +36,26 @@
   padding: 1rem;
 }
 
-.phoneLogoContainer {
+.pokPdfPhoneLogoContainer {
   display: flex;
   justify-content: center;
   padding-top: 2.5rem;
 }
 
-.phoneHeight {
+.pokPdfPhoneHeight {
   height: 1.75rem;
 }
 
-.scanAndPayHeight {
+.pokPdfScanAndPayHeight {
   height: 1.25rem;
 }
 
-.py05 {
+.pokPdfPy05 {
   padding-top: 0.5rem;
   padding-bottom: 0.6rem;
 }
 
-.merchantLogo {
+.pokPdfMerchantLogo {
   margin-top: 0.5rem;
   justify-content: center;
   align-items: center;
@@ -66,17 +66,17 @@
   margin-right: auto;
 }
 
-.h5 {
+.pokPdfH5 {
   height: 0.75rem !important;
 }
 
-.qrContainer {
+.pokPdfQrContainer {
   background: #EBEFF4;
   padding: 0.75rem;
   border-radius: 0.75rem;
 }
 
-.footer {
+.pokPdfFooter {
   display: flex;
   flex-direction: row;
   padding: 0.5rem;
@@ -86,7 +86,7 @@
   width: 100%;
 }
 
-.footerQrContainer {
+.pokPdfFooterQrContainer {
   padding: 0;
   border-radius: 0.5rem;
   background: white;
@@ -95,33 +95,33 @@
   align-items: center;
 }
 
-.footerContent {
+.pokPdfFooterContent {
   margin-left: 1rem;
   padding-top: 0.5rem;
   width: 100%;
 }
 
-.footerText {
+.pokPdfFooterText {
   font-weight: bolder;
   font-size: 0.575rem;
   line-height: 1rem;
   font-family: "DejaVu Sans", "Arial", sans-serif;
 }
 
-.footerText {
+.pokPdfFooterText {
   font-weight: bolder;
   font-size: 0.575rem;
   line-height: 1rem;
   font-family: "DejaVu Sans", "Arial", sans-serif;
 }
 
-.footerStoreContainer {
+.pokPdfFooterStoreContainer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-.footerLink {
+.pokPdfFooterLink {
   color: #008ACD;
   font-size: 0.575rem;
   padding-top: 0.2rem;
@@ -130,20 +130,20 @@
 }
 
 
-.footerDownloadContainer {
+.pokPdfFooterDownloadContainer {
   display: flex;
   flex-direction: row;
   padding-top: 0.2rem;
 }
 
-.appStore {
+.pokPdfAppStore {
   height: 1rem;
   margin-right: 0.375rem;
   display: flex;
   justify-content: center;
 }
 
-.playStore {
+.pokPdfPlayStore {
   height: 1rem;
   display: flex;
   justify-content: center;

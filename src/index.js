@@ -21,11 +21,11 @@ const POKMerchantPdf = ({ url, children, onSuccess, onError }) => {
   return (
     <div>
       <div onClick={downloadPdf}>{children}</div>
-      {/*<div style={{ position: 'absolute', left: '-1000px', top: 0 }}>*/}
+      <div style={{ position: 'absolute', left: '-1000px', top: 0 }}>
         <div ref={pdfExportComponent}>
           <PdfTemplate url={url} />
         </div>
-      {/*</div>*/}
+      </div>
     </div>
   )
 }

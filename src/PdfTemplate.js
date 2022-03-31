@@ -11,63 +11,71 @@ import googlePlay from 'assets/googlePlay.svg'
 const PdfTemplate = ({ url }) => {
   return (
     <div>
-      <div className={styles.root}>
-        <div className={styles.header}>
-          <div className={styles.textCenter}>
-            <div className={styles.headerContainer}>
-              <img alt='logo' src={header} className={styles.headerHeight} />
+      <div className={styles.pokPdfRoot}>
+        <div className={styles.pokPdfHeader}>
+          <div className={styles.pokPdfTextCenter}>
+            <div className={styles.pokPdfHeaderContainer}>
+              <img
+                alt='logo'
+                src={header}
+                className={styles.pokPdfHeaderHeight}
+              />
             </div>
           </div>
         </div>
-        <div className={styles.container}>
-          <div className={styles.phoneLogoContainer}>
-            <img alt='scan-qr' src={phone} className={styles.phoneHeight} />
+        <div className={styles.pokPdfContainer}>
+          <div className={styles.pokPdfPhoneLogoContainer}>
+            <img
+              alt='scan-qr'
+              src={phone}
+              className={styles.pokPdfPhoneHeight}
+            />
           </div>
-          <div className={styles.py05}>
+          <div className={styles.pokPdfPy05}>
             <img
               alt='scan-and-pay'
               src={scanAndPayText}
-              className={styles.scanAndPayHeight}
+              className={styles.pokPdfScanAndPayHeight}
             />
           </div>
-          <div className={styles.qrContainer}>
+          <div className={styles.pokPdfQrContainer}>
             <QRCode value={url} size={151} />
             <img
               alt='merchant-logo'
               src={Logo}
-              className={styles.merchantLogo}
+              className={styles.pokPdfMerchantLogo}
             />
           </div>
-          <div className={styles.footer}>
-            <div className={styles.footerQrContainer}>
+          <div className={styles.pokPdfFooter}>
+            <div className={styles.pokPdfFooterQrContainer}>
               <QRCode
                 value='https://pokpay.io'
                 size={50}
                 bgColor='transparent'
               />
             </div>
-            <div className={styles.footerContent}>
-              <img alt='Logo' src={Logo} className={styles.h5} />
+            <div className={styles.pokPdfFooterContent}>
+              <img alt='Logo' src={Logo} className={styles.pokPdfH5} />
               <div>
-                <div className={styles.footerText}>
+                <div className={styles.pokPdfFooterText}>
                   Shkarko aplikacionin POK per pagesa te shpejta
                 </div>
-                <div className={styles.footerStoreContainer}>
-                  <div className={styles.footerDownloadContainer}>
+                <div className={styles.pokPdfFooterStoreContainer}>
+                  <div className={styles.pokPdfFooterDownloadContainer}>
                     <img
                       alt='AppleStore'
                       src={appleStore}
-                      className={styles.appStore}
+                      className={styles.pokPdfAppStore}
                     />
                     <img
                       alt='GooglePlay'
                       src={googlePlay}
-                      className={styles.playStore}
+                      className={styles.pokPdfPlayStore}
                     />
                   </div>
                   <a
                     rel='noreferrer'
-                    className={styles.footerLink}
+                    className={styles.pokPdfFooterLink}
                     target='_blank'
                     href='https://pokpay.io'
                   >

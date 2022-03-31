@@ -8,7 +8,7 @@ const App = () => {
     <POKMerchantPdf url="https://exaple.com" onSuccess={() => {
       console.log('Downloaded pdf')
     }}>
-      <button>shkarkoje kte pdf te marrë</button>
+      <button>Download Pdf</button>
     </POKMerchantPdf>
   </div>
 }
