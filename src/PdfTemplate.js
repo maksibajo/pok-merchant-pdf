@@ -8,7 +8,7 @@ import Logo from 'assets/POK.svg'
 import appleStore from 'assets/appleStore.svg'
 import googlePlay from 'assets/googlePlay.svg'
 
-const PdfTemplate = ({ url }) => {
+const PdfTemplate = ({ url, imageUrl, imageBase64 }) => {
   return (
     <div>
       <div className={styles.pokPdfRoot}>
@@ -42,7 +42,7 @@ const PdfTemplate = ({ url }) => {
             <QRCode value={url} size={151} />
             <img
               alt='merchant-logo'
-              src={Logo}
+              src={imageUrl || imageBase64 || Logo}
               className={styles.pokPdfMerchantLogo}
             />
           </div>
