@@ -4,7 +4,7 @@
   flex-direction: column;
   justify-content: space-between;
   padding: 1.25rem;
-  background: linear-gradient(to bottom, #07074E, #008ACD)
+  background: radial-gradient(135.71% 135.71% at 5.12% 114.62%, #008ACD 0%, #07074E 100%)
 }
 
 .pokPdfHeader {
