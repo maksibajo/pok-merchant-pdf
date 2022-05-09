@@ -4,6 +4,8 @@ import { savePDF } from '@progress/kendo-react-pdf'
 
 const POKMerchantPdf = ({
   url,
+  merchantName,
+  posName,
   imageUrl,
   imageBase64,
   children,
@@ -17,11 +19,23 @@ const POKMerchantPdf = ({
       await savePDF(pdfExportComponent.current, {
         paperSize: 'A5',
         creator: 'POK',
-        fileName: 'Merchant QR code'
+        fileName: generateName(),
       })
       onSuccess()
     } catch (e) {
       onError(e)
+    }
+  }
+
+  const generateName = () => {
+    if (merchantName && posName) {
+      return `${merchantName} - ${posName}`
+    } else if (merchantName) {
+      return merchantName
+    } else if (posName) {
+      return posName
+    } else {
+      return 'POK Merchant QR code'
     }
   }
 
