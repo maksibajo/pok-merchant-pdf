@@ -48,11 +48,7 @@ const PdfTemplate = ({ url, imageUrl, imageBase64 }) => {
           </div>
           <div className={styles.pokPdfFooter}>
             <div className={styles.pokPdfFooterQrContainer}>
-              <QRCode
-                value='https://pokpay.io'
-                size={50}
-                bgColor='transparent'
-              />
+              <QRCode value={url} size={50} bgColor='transparent' />
             </div>
             <div className={styles.pokPdfFooterContent}>
               <img alt='Logo' src={Logo} className={styles.pokPdfH5} />
